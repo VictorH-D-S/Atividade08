@@ -9,28 +9,25 @@ namespace Atividade08_Estacionamento
     internal class Program
     {
         static List<string> vagas = new List<string> { "______", "______", "______", "______", "______" };
-
-        static string placa;
-        static int vaga;
+        
         static void Main(string[] args)
         {
             Console.WriteLine("---------- Bem vindo ao SISTEMA DE ESTACIONAMENTO ----------");
             Console.WriteLine("Opções:\n1- Estacionar\n2- Retirar veículo\n3- Listar veículos");
             Console.WriteLine($"O que deseja fazer?");
             string escolha = Console.ReadLine();
-            int i = 0;
 
             if (escolha == "1")
             {
-                for (i = 0; i < vagas.Count; i++)
+
+                for (int i = 0; i < vagas.Count; i++)
                 {
                     if (vagas[i] == "______")
                     {
                         Console.Write("Insira a placa de seu veículo: ");
                         string nova_placa = Console.ReadLine();
-                        int contaPlaca = nova_placa.Count();
 
-                        if (contaPlaca == 6)
+                        if (nova_placa.Length != 6)
                         {
 
                             vagas[i] = nova_placa.ToUpper();
@@ -38,14 +35,14 @@ namespace Atividade08_Estacionamento
                             i++;
                             Console.ReadKey();
                             Console.Clear();
-                            Main(null);
+                            Main(args);
                             return;
 
                         }
                         Console.WriteLine("Placa inválida.");
                         Console.ReadKey();
                         Console.Clear();
-                        Main(null);
+                        Main(args);
                         return;
 
                     }
@@ -54,7 +51,7 @@ namespace Atividade08_Estacionamento
                 Console.WriteLine("O estacionamento tá lotado :/");
                 Console.ReadKey();
                 Console.Clear();
-                Main(null);
+                Main(args);
                 return;
 
             }
@@ -65,7 +62,7 @@ namespace Atividade08_Estacionamento
                 string remover_veiculo = Console.ReadLine();
 
 
-                for (i = 0; i < vagas.Count; i++)
+                for (int i = 0; i < vagas.Count; i++)
                 {
                     if (vagas[i] == remover_veiculo.ToUpper())
                     {
