@@ -1,0 +1,8 @@
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\bin\Debug\Atividade08_Estacionamento.exe.config
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\bin\Debug\Atividade08_Estacionamento.exe
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\bin\Debug\Atividade08_Estacionamento.pdb
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\obj\Debug\Atividade08_Estacionamento.csproj.AssemblyReference.cache
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\obj\Debug\Atividade08_Estacionamento.csproj.SuggestedBindingRedirects.cache
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\obj\Debug\Atividade08_Estacionamento.csproj.CoreCompileInputs.cache
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\obj\Debug\Atividade08_Estacionamento.exe
+C:\Users\vitin\source\repos\Atividade08_Estacionamento\Atividade08_Estacionamento\obj\Debug\Atividade08_Estacionamento.pdb
