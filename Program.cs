@@ -25,9 +25,9 @@ namespace Atividade08_Estacionamento
                     {
                         Console.Write("Insira a placa de seu veículo: ");
                         string nova_placa = Console.ReadLine();
-                        int conta_placa = nova_placa.Count();
+                        int contador_placa = nova_placa.Count();
 
-                        if (conta_placa == 6)
+                        if (contador_placa == 6)
                         {
 
                             vagas[i] = nova_placa.ToUpper();
