@@ -19,15 +19,15 @@ namespace Atividade08_Estacionamento
 
             if (escolha == "1")
             {
-
                 for (int i = 0; i < vagas.Count; i++)
                 {
                     if (vagas[i] == "______")
                     {
                         Console.Write("Insira a placa de seu veículo: ");
                         string nova_placa = Console.ReadLine();
+                        int conta_placa = nova_placa.Count();
 
-                        if (nova_placa.Length != 6)
+                        if (conta_placa == 6)
                         {
 
                             vagas[i] = nova_placa.ToUpper();
@@ -39,6 +39,7 @@ namespace Atividade08_Estacionamento
                             return;
 
                         }
+
                         Console.WriteLine("Placa inválida.");
                         Console.ReadKey();
                         Console.Clear();
@@ -79,6 +80,10 @@ namespace Atividade08_Estacionamento
                 }
 
                 Console.WriteLine("Carro não localiazdo.");
+                Console.ReadKey();
+                Console.Clear();
+                Main(args);
+                return;
 
             }
 
