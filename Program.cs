@@ -95,9 +95,16 @@ namespace Atividade08_Estacionamento
                 Main(args);
                 return;
             }
-            
-            Console.ReadKey();
-            return;
+
+            else
+            {
+                Console.WriteLine("Opção inválida.");
+                Console.ReadKey();
+                Console.Clear();
+                Main(args);
+                return;
+
+            }
         }
     }
 }
